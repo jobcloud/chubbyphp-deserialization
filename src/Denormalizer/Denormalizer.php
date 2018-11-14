@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Chubbyphp\Deserialization\Denormalizer;
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
 use Chubbyphp\Deserialization\DeserializerLogicException;
 use Chubbyphp\Deserialization\DeserializerRuntimeException;
 use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
@@ -67,17 +66,10 @@ final class Denormalizer implements DenormalizerInterface
             $object = $this->createNewObject($objectMapping, $path, $type);
         }
 
-        $missingFields = [];
         foreach ($objectMapping->getDenormalizationFieldMappings($path, $type) as $denormalizationFieldMapping) {
             $name = $denormalizationFieldMapping->getName();
 
-            if (!array_key_exists($name, $data)) {
-                $missingFields[] = $name;
-
-                continue;
-            }
-
-            $this->denormalizeField($context, $denormalizationFieldMapping, $path, $name, $data, $object);
+            $this->denormalizeField($context, $denormalizationFieldMapping, $isNew, $path, $name, $data, $object);
 
             unset($data[$name]);
         }
@@ -88,10 +80,6 @@ final class Denormalizer implements DenormalizerInterface
             && [] !== $fields = array_diff(array_keys($data), $allowedAdditionalFields)
         ) {
             $this->handleNotAllowedAdditionalFields($path, $fields);
-        }
-
-        if (!$isNew) {
-            $this->resetMissingFields($context, $objectMapping, $object, $missingFields, $path, $type);
         }
 
         return $object;
@@ -144,6 +132,7 @@ final class Denormalizer implements DenormalizerInterface
     /**
      * @param DenormalizerContextInterface         $context
      * @param DenormalizationFieldMappingInterface $denormalizationFieldMapping
+     * @param bool                                 $isNew
      * @param string                               $path
      * @param array                                $data
      * @param object                               $object
@@ -151,6 +140,7 @@ final class Denormalizer implements DenormalizerInterface
     private function denormalizeField(
         DenormalizerContextInterface $context,
         DenormalizationFieldMappingInterface $denormalizationFieldMapping,
+        bool $isNew,
         string $path,
         string $name,
         array $data,
@@ -158,6 +148,14 @@ final class Denormalizer implements DenormalizerInterface
     ) {
         if (!$this->isWithinGroup($context, $denormalizationFieldMapping)) {
             return;
+        }
+
+        if (!array_key_exists($name, $data)) {
+            if ($isNew || !method_exists($context, 'isResetMissingFields') || !$context->isResetMissingFields()) {
+                return;
+            }
+
+            $data[$name] = null;
         }
 
         $subPath = $this->getSubPathByName($path, $name);
@@ -231,35 +229,5 @@ final class Denormalizer implements DenormalizerInterface
         }
 
         return $subPaths;
-    }
-
-    /**
-     * @param DenormalizerContextInterface          $context
-     * @param DenormalizationObjectMappingInterface $objectMapping
-     * @param object                                $object
-     * @param array                                 $missingFields
-     * @param string                                $path
-     * @param string|null                           $type
-     */
-    private function resetMissingFields(
-        DenormalizerContextInterface $context,
-        DenormalizationObjectMappingInterface $objectMapping,
-        $object,
-        array $missingFields,
-        string $path,
-        string $type = null
-    ) {
-        if (!method_exists($context, 'isResetMissingFields') || !$context->isResetMissingFields()) {
-            return;
-        }
-
-        $factory = $objectMapping->getDenormalizationFactory($path, $type);
-
-        $newObject = $factory();
-
-        foreach ($missingFields as $missingField) {
-            $accessor = new PropertyAccessor($missingField);
-            $accessor->setValue($object, $accessor->getValue($newObject));
-        }
     }
 }
