@@ -46,7 +46,7 @@ Please take a look to [chubbyphp-parsing](https://github.com/chubbyphp/chubbyphp
 Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-deserialization][1].
 
 ```sh
-composer require chubbyphp/chubbyphp-deserialization "^4.2"
+composer require jobcloud/chubbyphp-deserialization
 ```
 
 ## Usage
