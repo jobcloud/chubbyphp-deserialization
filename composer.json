@@ -1,6 +1,6 @@
 {
-    "name": "chubbyphp/chubbyphp-deserialization",
-    "description": "Chubbyphp Deserialize",
+    "name": "jobcloud/chubbyphp-deserialization",
+    "description": "Jobcloud fork of Chubbyphp Deserialize",
     "keywords": ["chubbyphp", "slim", "symfony", "deserialization", "deserialize", "deserializer"],
     "license": "MIT",
     "authors": [
