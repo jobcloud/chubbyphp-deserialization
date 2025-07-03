@@ -48,11 +48,6 @@
             "phpstan/extension-installer": true
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.2-dev"
-        }
-    },
     "scripts": {
         "fix:cs": "mkdir -p build && PHP_CS_FIXER_IGNORE_ENV=1 vendor/bin/php-cs-fixer fix --cache-file=build/phpcs.cache",
         "test": [
