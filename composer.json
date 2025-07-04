@@ -1,7 +1,7 @@
 {
-    "name": "chubbyphp/chubbyphp-deserialization",
-    "description": "Chubbyphp Deserialize",
-    "keywords": ["chubbyphp", "slim", "symfony", "deserialization", "deserialize", "deserializer"],
+    "name": "jobcloud/chubbyphp-deserialization",
+    "description": "Jobcloud fork of Chubbyphp Deserialize",
+    "keywords": ["Jobcloud","chubbyphp", "slim", "symfony", "deserialization", "deserialize", "deserializer"],
     "license": "MIT",
     "authors": [
         {
@@ -46,11 +46,6 @@
         "allow-plugins": {
             "infection/extension-installer": true,
             "phpstan/extension-installer": true
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.2-dev"
         }
     },
     "scripts": {
