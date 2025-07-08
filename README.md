@@ -175,9 +175,6 @@ echo $model->getName();
 
 2025 Dominik Zogg
 
-
-[1]: https://packagist.org/packages/chubbyphp/chubbyphp-deserialization
-
 [2]: doc/Accessor/MethodAccessor.md
 [3]: doc/Accessor/PropertyAccessor.md
 
