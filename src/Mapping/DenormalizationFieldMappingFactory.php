@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Mapping;
+namespace Jobcloud\Deserialization\Mapping;
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
-use Chubbyphp\Deserialization\Denormalizer\CallbackFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizerInterface;
-use Chubbyphp\Deserialization\Denormalizer\Relation\EmbedManyFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceOneFieldDenormalizer;
-use Chubbyphp\Deserialization\Policy\NullPolicy;
-use Chubbyphp\Deserialization\Policy\PolicyInterface;
+use Jobcloud\Deserialization\Accessor\PropertyAccessor;
+use Jobcloud\Deserialization\Denormalizer\CallbackFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizerInterface;
+use Jobcloud\Deserialization\Denormalizer\Relation\EmbedManyFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceOneFieldDenormalizer;
+use Jobcloud\Deserialization\Policy\NullPolicy;
+use Jobcloud\Deserialization\Policy\PolicyInterface;
 
 final class DenormalizationFieldMappingFactory implements DenormalizationFieldMappingFactoryInterface
 {

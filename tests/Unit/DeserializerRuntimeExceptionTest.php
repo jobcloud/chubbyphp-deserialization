@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit;
+namespace Jobcloud\Tests\Deserialization\Unit;
 
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\DeserializerRuntimeException
+ * @covers \Jobcloud\Deserialization\DeserializerRuntimeException
  *
  * @internal
  */

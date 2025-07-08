@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\ServiceFactory;
+namespace Jobcloud\Deserialization\ServiceFactory;
 
-use Chubbyphp\Deserialization\Denormalizer\Denormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistryInterface;
+use Jobcloud\Deserialization\Denormalizer\Denormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistryInterface;
 use Chubbyphp\Laminas\Config\Factory\AbstractFactory;
 use Psr\Container\ContainerInterface;
 use Psr\Log\LoggerInterface;

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Accessor;
+namespace Jobcloud\Tests\Deserialization\Unit\Accessor;
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
-use Chubbyphp\Deserialization\DeserializerLogicException;
-use Chubbyphp\Tests\Deserialization\Resources\Model\AbstractManyModel;
+use Jobcloud\Deserialization\Accessor\PropertyAccessor;
+use Jobcloud\Deserialization\DeserializerLogicException;
+use Jobcloud\Tests\Deserialization\Resources\Model\AbstractManyModel;
 use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Accessor\PropertyAccessor
+ * @covers \Jobcloud\Deserialization\Accessor\PropertyAccessor
  *
  * @internal
  */

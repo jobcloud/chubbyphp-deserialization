@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Denormalizer;
+namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
-use Chubbyphp\Deserialization\DeserializerLogicException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
+use Jobcloud\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Tests\Deserialization\Resources\Model\AbstractManyModel;
+use Jobcloud\Tests\Deserialization\Resources\Model\AbstractManyModel;
 use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry
+ * @covers \Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry
  *
  * @internal
  */

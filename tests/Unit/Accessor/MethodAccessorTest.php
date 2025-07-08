@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Accessor;
+namespace Jobcloud\Tests\Deserialization\Unit\Accessor;
 
-use Chubbyphp\Deserialization\Accessor\MethodAccessor;
-use Chubbyphp\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\Accessor\MethodAccessor;
+use Jobcloud\Deserialization\DeserializerLogicException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Accessor\MethodAccessor
+ * @covers \Jobcloud\Deserialization\Accessor\MethodAccessor
  *
  * @internal
  */

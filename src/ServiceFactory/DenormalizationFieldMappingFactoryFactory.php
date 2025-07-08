@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\ServiceFactory;
+namespace Jobcloud\Deserialization\ServiceFactory;
 
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactory;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactoryInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactoryInterface;
 use Chubbyphp\Laminas\Config\Factory\AbstractFactory;
 use Psr\Container\ContainerInterface;
 

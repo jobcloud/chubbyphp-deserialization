@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Resources\Mapping;
+namespace Jobcloud\Tests\Deserialization\Resources\Mapping;
 
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactory;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Tests\Deserialization\Resources\Model\ManyModel;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Tests\Deserialization\Resources\Model\ManyModel;
 
 final class ManyModelMapping implements DenormalizationObjectMappingInterface
 {

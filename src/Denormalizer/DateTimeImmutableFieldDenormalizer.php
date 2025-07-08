@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Denormalizer;
+namespace Jobcloud\Deserialization\Denormalizer;
 
-use Chubbyphp\Deserialization\Accessor\AccessorInterface;
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
 
 final class DateTimeImmutableFieldDenormalizer implements FieldDenormalizerInterface
 {

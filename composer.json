@@ -36,10 +36,10 @@
         "symfony/dependency-injection": "^5.4.48|^6.4.19|^7.2"
     },
     "autoload": {
-        "psr-4": { "Chubbyphp\\Deserialization\\": "src/" }
+        "psr-4": { "Jobcloud\\Deserialization\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Chubbyphp\\Tests\\Deserialization\\": "tests/" }
+        "psr-4": { "Jobcloud\\Tests\\Deserialization\\": "tests/" }
     },
     "config": {
         "sort-packages": true,

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Accessor;
+namespace Jobcloud\Deserialization\Accessor;
 
-use Chubbyphp\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\DeserializerLogicException;
 use Doctrine\Persistence\Proxy;
 
 final class PropertyAccessor implements AccessorInterface

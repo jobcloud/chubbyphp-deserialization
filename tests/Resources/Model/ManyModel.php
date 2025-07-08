@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Resources\Model;
+namespace Jobcloud\Tests\Deserialization\Resources\Model;
 
 final class ManyModel extends AbstractManyModel
 {

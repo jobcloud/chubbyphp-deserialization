@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Denormalizer;
+namespace Jobcloud\Deserialization\Denormalizer;
 
 use Psr\Http\Message\ServerRequestInterface;
 

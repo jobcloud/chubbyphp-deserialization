@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization;
+namespace Jobcloud\Deserialization;
 
 final class DeserializerLogicException extends \LogicException
 {

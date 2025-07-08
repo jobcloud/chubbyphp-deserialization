@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Denormalizer\Relation;
+namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer\Relation;
 
-use Chubbyphp\Deserialization\Accessor\AccessorInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
 use Chubbyphp\Mock\MockMethod\WithoutReturn;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
@@ -16,7 +16,7 @@ use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer
+ * @covers \Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer
  *
  * @internal
  */

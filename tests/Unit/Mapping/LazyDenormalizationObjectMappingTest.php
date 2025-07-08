@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Mapping;
+namespace Jobcloud\Tests\Deserialization\Unit\Mapping;
 
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Deserialization\Mapping\LazyDenormalizationObjectMapping;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\Mapping\LazyDenormalizationObjectMapping;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 
 /**
- * @covers \Chubbyphp\Deserialization\Mapping\LazyDenormalizationObjectMapping
+ * @covers \Jobcloud\Deserialization\Mapping\LazyDenormalizationObjectMapping
  *
  * @internal
  */

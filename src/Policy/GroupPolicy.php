@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Policy;
+namespace Jobcloud\Deserialization\Policy;
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 
 final class GroupPolicy implements PolicyInterface
 {

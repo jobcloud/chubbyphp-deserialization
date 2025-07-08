@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Policy;
+namespace Jobcloud\Tests\Deserialization\Unit\Policy;
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\Policy\NotPolicy;
-use Chubbyphp\Deserialization\Policy\PolicyInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Policy\NotPolicy;
+use Jobcloud\Deserialization\Policy\PolicyInterface;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Policy\NotPolicy
+ * @covers \Jobcloud\Deserialization\Policy\NotPolicy
  *
  * @internal
  */

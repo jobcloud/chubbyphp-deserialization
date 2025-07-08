@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Denormalizer\Relation;
+namespace Jobcloud\Deserialization\Denormalizer\Relation;
 
-use Chubbyphp\Deserialization\Accessor\AccessorInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerInterface;
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizerInterface;
-use Chubbyphp\Deserialization\DeserializerLogicException;
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizerInterface;
+use Jobcloud\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
 
 final class EmbedManyFieldDenormalizer implements FieldDenormalizerInterface
 {

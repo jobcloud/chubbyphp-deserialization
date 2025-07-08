@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Mapping;
+namespace Jobcloud\Tests\Deserialization\Unit\Mapping;
 
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizerInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMapping;
-use Chubbyphp\Deserialization\Policy\PolicyInterface;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizerInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMapping;
+use Jobcloud\Deserialization\Policy\PolicyInterface;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Mapping\DenormalizationFieldMapping
+ * @covers \Jobcloud\Deserialization\Mapping\DenormalizationFieldMapping
  *
  * @internal
  */

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\DependencyInjection;
+namespace Jobcloud\Deserialization\DependencyInjection;
 
 use Chubbyphp\DecodeEncode\Decoder\Decoder;
-use Chubbyphp\Deserialization\Denormalizer\Denormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
-use Chubbyphp\Deserialization\Deserializer;
+use Jobcloud\Deserialization\Denormalizer\Denormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
+use Jobcloud\Deserialization\Deserializer;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ContainerInterface;
