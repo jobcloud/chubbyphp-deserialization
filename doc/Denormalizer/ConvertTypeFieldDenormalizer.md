@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
-use Chubbyphp\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
+use Jobcloud\Deserialization\Accessor\PropertyAccessor;
+use Jobcloud\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
 use MyProject\Model\Model;
 
 $model = new Model;

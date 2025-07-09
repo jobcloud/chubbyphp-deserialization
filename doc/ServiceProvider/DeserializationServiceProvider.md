@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\ServiceProvider\DeserializationServiceProvider;
+use Jobcloud\Deserialization\ServiceProvider\DeserializationServiceProvider;
 use Pimple\Container;
 
 $container = new Container();

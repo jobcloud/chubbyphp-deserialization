@@ -5,7 +5,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\ServiceFactory\DeserializerFactory;
+use Jobcloud\Deserialization\ServiceFactory\DeserializerFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
@@ -21,7 +21,7 @@ $deserializer = $factory($container);
 ```php
 <?php
 
-use Chubbyphp\Deserialization\ServiceFactory\DeserializerFactory;
+use Jobcloud\Deserialization\ServiceFactory\DeserializerFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */

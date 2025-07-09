@@ -9,14 +9,14 @@
 
 namespace MyProject\Mapping;
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
-use Chubbyphp\Deserialization\Denormalizer\Relation\EmbedManyFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Deserialization\Policy\GroupPolicy;
+use Jobcloud\Deserialization\Accessor\PropertyAccessor;
+use Jobcloud\Deserialization\Denormalizer\Relation\EmbedManyFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\Policy\GroupPolicy;
 use MyProject\Model\AbstractManyModel;
 use MyProject\Model\Model;
 
@@ -73,9 +73,9 @@ final class ModelMapping implements DenormalizationObjectMappingInterface
 
 namespace MyProject\Mapping;
 
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use MyProject\Model\AbstractManyModel;
 
 final class BaseManyModelMapping implements DenormalizationObjectMappingInterface
@@ -181,10 +181,10 @@ final class BaseManyModelMapping implements DenormalizationObjectMappingInterfac
 
 namespace MyProject\Mapping;
 
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use MyProject\Model\ManyModel;
 
 final class ManyModelMapping implements DenormalizationObjectMappingInterface
@@ -240,10 +240,10 @@ final class ManyModelMapping implements DenormalizationObjectMappingInterface
 
 namespace MyProject\Mapping;
 
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use MyProject\Model\OneModel;
 
 final class OneModelMapping implements DenormalizationObjectMappingInterface

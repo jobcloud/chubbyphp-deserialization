@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\Policy\AndPolicy;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Policy\AndPolicy;
 use MyProject\Model\Model;
 use MyProject\Policy\AnotherPolicy;
 use MyProject\Policy\SomePolicy;

@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextBuilder;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextBuilder;
 use Psr\Http\Message\ServerRequestInterface;
 
 /** @var ServerRequestInterface $request */

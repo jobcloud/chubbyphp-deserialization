@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Denormalizer\CallbackFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\CallbackFieldDenormalizer;
 use MyProject\Model\Model;
 
 $model = new Model;

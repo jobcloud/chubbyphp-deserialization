@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
 
 $registry = new DenormalizerObjectMappingRegistry([]);
 

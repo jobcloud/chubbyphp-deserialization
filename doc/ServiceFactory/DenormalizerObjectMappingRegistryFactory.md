@@ -5,8 +5,8 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Deserialization\ServiceFactory\DenormalizerObjectMappingRegistryFactory;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\ServiceFactory\DenormalizerObjectMappingRegistryFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
@@ -24,8 +24,8 @@ $denormalizerObjectMappingRegistry = $factory($container);
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
-use Chubbyphp\Deserialization\ServiceFactory\DenormalizerObjectMappingRegistryFactory;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\ServiceFactory\DenormalizerObjectMappingRegistryFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
