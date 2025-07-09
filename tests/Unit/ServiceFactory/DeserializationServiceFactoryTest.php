@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\ServiceFactory;
+namespace Jobcloud\Tests\Deserialization\Unit\ServiceFactory;
 
 use Chubbyphp\Container\Container;
 use Chubbyphp\DecodeEncode\Decoder\Decoder;
-use Chubbyphp\Deserialization\Denormalizer\Denormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
-use Chubbyphp\Deserialization\Deserializer;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactory;
-use Chubbyphp\Deserialization\ServiceFactory\DeserializationServiceFactory;
+use Jobcloud\Deserialization\Denormalizer\Denormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
+use Jobcloud\Deserialization\Deserializer;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
+use Jobcloud\Deserialization\ServiceFactory\DeserializationServiceFactory;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
 /**
- * @covers \Chubbyphp\Deserialization\ServiceFactory\DeserializationServiceFactory
+ * @covers \Jobcloud\Deserialization\ServiceFactory\DeserializationServiceFactory
  *
  * @internal
  */

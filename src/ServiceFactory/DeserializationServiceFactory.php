@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\ServiceFactory;
+namespace Jobcloud\Deserialization\ServiceFactory;
 
 use Chubbyphp\DecodeEncode\Decoder\Decoder;
-use Chubbyphp\Deserialization\Denormalizer\Denormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
-use Chubbyphp\Deserialization\Deserializer;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactory;
+use Jobcloud\Deserialization\Denormalizer\Denormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
+use Jobcloud\Deserialization\Deserializer;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
 use Psr\Container\ContainerInterface;
 
 final class DeserializationServiceFactory

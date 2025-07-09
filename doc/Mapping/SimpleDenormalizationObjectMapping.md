@@ -9,9 +9,9 @@
 
 namespace MyProject\Deserialization;
 
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingBuilder;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use MyProject\Model\Model;
 
 final class ModelMapping implements DenormalizationObjectMappingInterface

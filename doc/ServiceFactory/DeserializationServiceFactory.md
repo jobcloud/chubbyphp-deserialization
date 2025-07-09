@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\ServiceFactory\DeserializationServiceFactory;
+use Jobcloud\Deserialization\ServiceFactory\DeserializationServiceFactory;
 use Chubbyphp\Container\Container;
 
 $container = new Container();

@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit;
+namespace Jobcloud\Tests\Deserialization\Unit;
 
 use Chubbyphp\DecodeEncode\Decoder\DecoderInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerInterface;
-use Chubbyphp\Deserialization\Deserializer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
+use Jobcloud\Deserialization\Deserializer;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Deserializer
+ * @covers \Jobcloud\Deserialization\Deserializer
  *
  * @internal
  */

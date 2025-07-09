@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Denormalizer;
+namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
-use Chubbyphp\Deserialization\Accessor\AccessorInterface;
-use Chubbyphp\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\DeserializerLogicException;
 use Chubbyphp\Mock\MockMethod\WithoutReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer
+ * @covers \Jobcloud\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer
  *
  * @internal
  */

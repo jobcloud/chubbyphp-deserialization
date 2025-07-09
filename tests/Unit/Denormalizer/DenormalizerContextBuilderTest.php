@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Denormalizer;
+namespace Jobcloud\Tests\Deserialization\Unit\Denormalizer;
 
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextBuilder;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextBuilder;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
- * @covers \Chubbyphp\Deserialization\Denormalizer\DenormalizerContextBuilder
+ * @covers \Jobcloud\Deserialization\Denormalizer\DenormalizerContextBuilder
  *
  * @internal
  */

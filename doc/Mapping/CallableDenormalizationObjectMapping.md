@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Mapping\CallableDenormalizationObjectMapping;
+use Jobcloud\Deserialization\Mapping\CallableDenormalizationObjectMapping;
 use MyProject\Mapping\ModelMapping;
 use MyProject\Model\Model;
 

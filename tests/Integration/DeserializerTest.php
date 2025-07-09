@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Integration;
+namespace Jobcloud\Tests\Deserialization\Integration;
 
 use Chubbyphp\DecodeEncode\Decoder\Decoder;
 use Chubbyphp\DecodeEncode\Decoder\JsonTypeDecoder;
-use Chubbyphp\Deserialization\Denormalizer\Denormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextBuilder;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
-use Chubbyphp\Deserialization\Deserializer;
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Tests\Deserialization\Resources\Mapping\BaseManyModelMapping;
-use Chubbyphp\Tests\Deserialization\Resources\Mapping\ManyModelMapping;
-use Chubbyphp\Tests\Deserialization\Resources\Mapping\ModelMapping;
-use Chubbyphp\Tests\Deserialization\Resources\Mapping\OneModelMapping;
-use Chubbyphp\Tests\Deserialization\Resources\Model\ManyModel;
-use Chubbyphp\Tests\Deserialization\Resources\Model\Model;
-use Chubbyphp\Tests\Deserialization\Resources\Model\OneModel;
+use Jobcloud\Deserialization\Denormalizer\Denormalizer;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextBuilder;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerObjectMappingRegistry;
+use Jobcloud\Deserialization\Deserializer;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Tests\Deserialization\Resources\Mapping\BaseManyModelMapping;
+use Jobcloud\Tests\Deserialization\Resources\Mapping\ManyModelMapping;
+use Jobcloud\Tests\Deserialization\Resources\Mapping\ModelMapping;
+use Jobcloud\Tests\Deserialization\Resources\Mapping\OneModelMapping;
+use Jobcloud\Tests\Deserialization\Resources\Model\ManyModel;
+use Jobcloud\Tests\Deserialization\Resources\Model\Model;
+use Jobcloud\Tests\Deserialization\Resources\Model\OneModel;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\AbstractLogger;
 

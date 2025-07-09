@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\Mapping;
+namespace Jobcloud\Tests\Deserialization\Unit\Mapping;
 
-use Chubbyphp\Deserialization\Denormalizer\CallbackFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizerInterface;
-use Chubbyphp\Deserialization\Denormalizer\Relation\EmbedManyFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
-use Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceOneFieldDenormalizer;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactory;
-use Chubbyphp\Deserialization\Policy\NullPolicy;
-use Chubbyphp\Deserialization\Policy\PolicyInterface;
+use Jobcloud\Deserialization\Denormalizer\CallbackFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\ConvertTypeFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\DateTimeImmutableFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizerInterface;
+use Jobcloud\Deserialization\Denormalizer\Relation\EmbedManyFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\EmbedOneFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceOneFieldDenormalizer;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory;
+use Jobcloud\Deserialization\Policy\NullPolicy;
+use Jobcloud\Deserialization\Policy\PolicyInterface;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactory
+ * @covers \Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactory
  *
  * @internal
  */

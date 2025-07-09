@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Denormalizer;
+namespace Jobcloud\Deserialization\Denormalizer;
 
-use Chubbyphp\Deserialization\DeserializerLogicException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 
 final class DenormalizerObjectMappingRegistry implements DenormalizerObjectMappingRegistryInterface
 {

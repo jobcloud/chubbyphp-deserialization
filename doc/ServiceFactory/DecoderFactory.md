@@ -5,8 +5,8 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Decoder\TypeDecoderInterface;
-use Chubbyphp\Deserialization\ServiceFactory\DecoderFactory;
+use Jobcloud\Deserialization\Decoder\TypeDecoderInterface;
+use Jobcloud\Deserialization\ServiceFactory\DecoderFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
@@ -24,8 +24,8 @@ $decoder = $factory($container);
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Decoder\TypeDecoderInterface;
-use Chubbyphp\Deserialization\ServiceFactory\DecoderFactory;
+use Jobcloud\Deserialization\Decoder\TypeDecoderInterface;
+use Jobcloud\Deserialization\ServiceFactory\DecoderFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */

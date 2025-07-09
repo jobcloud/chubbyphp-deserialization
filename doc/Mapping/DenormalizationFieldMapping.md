@@ -3,9 +3,9 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizer;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMapping;
+use Jobcloud\Deserialization\Accessor\PropertyAccessor;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizer;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMapping;
 
 $fieldMapping = new DenormalizationFieldMapping(
     'name',

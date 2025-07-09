@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Denormalizer;
+namespace Jobcloud\Deserialization\Denormalizer;
 
-use Chubbyphp\Deserialization\DeserializerLogicException;
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingInterface;
-use Chubbyphp\Deserialization\Mapping\DenormalizationObjectMappingInterface;
+use Jobcloud\Deserialization\DeserializerLogicException;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingInterface;
+use Jobcloud\Deserialization\Mapping\DenormalizationObjectMappingInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

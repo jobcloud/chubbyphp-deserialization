@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Mapping;
+namespace Jobcloud\Deserialization\Mapping;
 
-use Chubbyphp\Deserialization\DeserializerRuntimeException;
+use Jobcloud\Deserialization\DeserializerRuntimeException;
 
 interface DenormalizationObjectMappingInterface
 {

@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Deserialization\Accessor\PropertyAccessor;
-use Chubbyphp\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
+use Jobcloud\Deserialization\Accessor\PropertyAccessor;
+use Jobcloud\Deserialization\Denormalizer\Relation\ReferenceManyFieldDenormalizer;
 use MyProject\Model\ParentModel;
 use MyProject\Model\ChildModel;
 

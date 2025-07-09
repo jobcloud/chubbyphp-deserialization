@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Mapping;
+namespace Jobcloud\Deserialization\Mapping;
 
 final class CallableDenormalizationObjectMapping implements DenormalizationObjectMappingInterface
 {

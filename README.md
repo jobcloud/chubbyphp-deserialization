@@ -1,30 +1,9 @@
-# chubbyphp-deserialization
-
-[![CI](https://github.com/chubbyphp/chubbyphp-deserialization/actions/workflows/ci.yml/badge.svg)](https://github.com/chubbyphp/chubbyphp-deserialization/actions/workflows/ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/chubbyphp/chubbyphp-deserialization/badge.svg?branch=master)](https://coveralls.io/github/chubbyphp/chubbyphp-deserialization?branch=master)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fchubbyphp%2Fchubbyphp-deserialization%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyphp/chubbyphp-deserialization/master)
-[![Latest Stable Version](https://poser.pugx.org/chubbyphp/chubbyphp-deserialization/v)](https://packagist.org/packages/chubbyphp/chubbyphp-deserialization)
-[![Total Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-deserialization/downloads)](https://packagist.org/packages/chubbyphp/chubbyphp-deserialization)
-[![Monthly Downloads](https://poser.pugx.org/chubbyphp/chubbyphp-deserialization/d/monthly)](https://packagist.org/packages/chubbyphp/chubbyphp-deserialization)
-
-[![bugs](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=bugs)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![code_smells](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=code_smells)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![coverage](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=coverage)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![ncloc](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=ncloc)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![sqale_rating](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![alert_status](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=alert_status)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![reliability_rating](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![security_rating](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=security_rating)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![sqale_index](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=sqale_index)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
-[![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=chubbyphp_chubbyphp-deserialization&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=chubbyphp_chubbyphp-deserialization)
+# Jobcloud Deserialization
 
 ## Description
 
 A simple deserialization.
 
-DEPRECATED: No personal interest anymore.
-Please take a look to [chubbyphp-parsing](https://github.com/chubbyphp/chubbyphp-parsing) its a different concept. But i believe parsing is the way to go instead of deserialze/validate.
 
 ## Requirements
 
@@ -43,10 +22,8 @@ Please take a look to [chubbyphp-parsing](https://github.com/chubbyphp/chubbyphp
 
 ## Installation
 
-Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-deserialization][1].
-
 ```sh
-composer require jobcloud/chubbyphp-deserialization
+composer require jobcloud/deserialization
 ```
 
 ## Usage
@@ -197,9 +174,6 @@ echo $model->getName();
 ## Copyright
 
 2025 Dominik Zogg
-
-
-[1]: https://packagist.org/packages/chubbyphp/chubbyphp-deserialization
 
 [2]: doc/Accessor/MethodAccessor.md
 [3]: doc/Accessor/PropertyAccessor.md

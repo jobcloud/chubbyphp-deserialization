@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization;
+namespace Jobcloud\Deserialization;
 
 use Chubbyphp\DecodeEncode\Decoder\DecoderInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerContextInterface;
-use Chubbyphp\Deserialization\Denormalizer\DenormalizerInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerContextInterface;
+use Jobcloud\Deserialization\Denormalizer\DenormalizerInterface;
 
 interface DeserializerInterface extends DecoderInterface, DenormalizerInterface
 {

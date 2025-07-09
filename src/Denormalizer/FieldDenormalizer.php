@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Denormalizer;
+namespace Jobcloud\Deserialization\Denormalizer;
 
-use Chubbyphp\Deserialization\Accessor\AccessorInterface;
+use Jobcloud\Deserialization\Accessor\AccessorInterface;
 
 final class FieldDenormalizer implements FieldDenormalizerInterface
 {

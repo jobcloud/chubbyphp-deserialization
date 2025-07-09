@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Deserialization\Mapping;
+namespace Jobcloud\Deserialization\Mapping;
 
-use Chubbyphp\Deserialization\Denormalizer\FieldDenormalizerInterface;
-use Chubbyphp\Deserialization\Policy\NullPolicy;
-use Chubbyphp\Deserialization\Policy\PolicyInterface;
+use Jobcloud\Deserialization\Denormalizer\FieldDenormalizerInterface;
+use Jobcloud\Deserialization\Policy\NullPolicy;
+use Jobcloud\Deserialization\Policy\PolicyInterface;
 
 final class DenormalizationFieldMapping implements DenormalizationFieldMappingInterface
 {

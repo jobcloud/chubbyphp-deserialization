@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Deserialization\Unit\ServiceFactory;
+namespace Jobcloud\Tests\Deserialization\Unit\ServiceFactory;
 
-use Chubbyphp\Deserialization\Mapping\DenormalizationFieldMappingFactoryInterface;
-use Chubbyphp\Deserialization\ServiceFactory\DenormalizationFieldMappingFactoryFactory;
+use Jobcloud\Deserialization\Mapping\DenormalizationFieldMappingFactoryInterface;
+use Jobcloud\Deserialization\ServiceFactory\DenormalizationFieldMappingFactoryFactory;
 use Chubbyphp\Mock\MockObjectBuilder;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 
 /**
- * @covers \Chubbyphp\Deserialization\ServiceFactory\DenormalizationFieldMappingFactoryFactory
+ * @covers \Jobcloud\Deserialization\ServiceFactory\DenormalizationFieldMappingFactoryFactory
  *
  * @internal
  */
