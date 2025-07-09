@@ -23,7 +23,7 @@ A simple deserialization.
 ## Installation
 
 ```sh
-composer require jobcloud/chubbyphp-deserialization
+composer require jobcloud/deserialization
 ```
 
 ## Usage
